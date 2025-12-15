@@ -1,67 +1,48 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import { Button, Htag, Paragraph, Tag } from "@/components";
 
 export default function Home() {
-  const a = 1;
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>To get started, edit the page.tsx file.</h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {`Documentation ${a}`}
-          </a>
-        </div>
-      </main>
-    </div>
+    <>
+      <Htag>Заголовок</Htag>
+      <Button appearance="primary" arrow="right">
+        Основная кнопка
+      </Button>
+      <Button appearance="ghost" arrow="right">
+        Кнопка ghost
+      </Button>
+      <Paragraph size="l">
+        Выше указаны программы Adobe InDesign, Adobe Illustrator, Corel Draw и
+        ими можно успешно пользоваться дома или в дороге. Современные ноутбуки
+        хорошо справляются с нагрузкой, так зачем загонять специалиста в душный
+        офис. В этой профессии важным считается вдохновение, поэтому дизайнеры
+        ищут его в разных местах.
+      </Paragraph>
+      <Paragraph size="m">
+        Студенты освоят не только hard skills, необходимые для работы
+        веб-дизайнером, но и soft skills — навыки, которые позволят эффективно
+        взаимодействовать в команде с менеджерами, разработчиками и
+        маркетологами. Выпускники факультета могут успешно конкурировать с
+        веб-дизайнерами уровня middle.
+      </Paragraph>
+      <Paragraph size="s">
+        Напишу сразу в двух курсах, так как проходил оба. Java будет многим
+        непросвещённым сложновата в изучении, но здесь перевес из-за лидирующего
+        положения языка как самого популярного в программировании. Выбор мой пал
+        на эту профессию еще и потому, что Java-разработчики получают самую
+        большую зарплату. Хотя Python начинает догонять Java по многим моментам,
+        но вот в крупном екоме разработке Джава все-таки остается главенствующей
+        сейчас. Скажу так – полнота программы и интенсивность присуща обоим
+        курсам GeekBrains. Хочу отметить, что с первого дня занятий вы
+        приступаете к практике и получаете опыт коммерческой разработки уже в
+        свое резюме. Скажу вам как прошедший это – реально помогло в
+        трудоустройстве!
+      </Paragraph>
+      <Tag size="s" color="red">
+        Small
+      </Tag>
+      <Tag size="m" color="ghost">
+        Middle
+      </Tag>
+    </>
   );
 }
