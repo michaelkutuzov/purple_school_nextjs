@@ -6,7 +6,7 @@ export interface ParagraphProps extends DetailedHTMLProps<
   HTMLAttributes<HTMLParagraphElement>,
   HTMLParagraphElement
 > {
-  size?: "l" | "m" | "s" | "default";
+  size?: "l" | "m" | "s" | "xs" | "default";
 }
 
 export const Paragraph: FC<ParagraphProps> = ({

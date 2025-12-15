@@ -13,6 +13,7 @@
   "dependencies": {
     "classnames": "^2.5.1",
     "next": "16.0.8",
+    "plural-ru": "^2.0.2",
     "react": "19.2.1",
     "react-dom": "19.2.1"
   },
