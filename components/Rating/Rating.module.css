@@ -1,0 +1,15 @@
+.editable {
+  cursor: pointer;
+}
+
+.star svg {
+  margin-right: 5px;
+}
+
+.filled svg {
+  fill: var(--primary);
+}
+
+.star:last-child svg {
+  margin-right: 0;
+}

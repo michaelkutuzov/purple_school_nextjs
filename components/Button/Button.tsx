@@ -1,9 +1,4 @@
-import type {
-  ButtonHTMLAttributes,
-  DetailedHTMLProps,
-  FC,
-  ReactNode,
-} from "react";
+import type { ButtonHTMLAttributes, DetailedHTMLProps, FC } from "react";
 import cn from "classnames";
 import ArrowIcon from "./arrow.svg";
 import styles from "./Button.module.css";
