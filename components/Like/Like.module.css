@@ -1,0 +1,22 @@
+.like {
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  margin: 0;
+}
+
+.like svg {
+  display: block;
+}
+
+.likes-count {
+  display: block;
+
+  margin-right: 2px;
+
+  color: #6e6e6e;
+
+  font-size: 12px;
+  line-height: 16px;
+}

@@ -1,6 +1,16 @@
 :root {
-  --background: #fff;
-  --foreground: #171717;
+  --background: #f5f6f8;
+  --foreground: var(--black);
+  --black: #3b434e;
+  --white: white;
+  --primary: #7653fc;
+  --primary-hover: #6344df;
+  --red: #fc836d;
+  --green: #1dc37e;
+  --green-light: #c8f8e4;
+  --gray: #6e6e6e;
+  --gray-light: #ebebeb;
+  --blue: #1473e6;
 }
 
 @media (prefers-color-scheme: dark) {
