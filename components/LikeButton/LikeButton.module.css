@@ -1,0 +1,31 @@
+.root {
+  position: relative;
+
+  width: 48px;
+  height: 48px;
+
+  cursor: pointer;
+
+  border: 1px solid #303030;
+  border-radius: 50%;
+}
+
+.root svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 24px;
+  height: 24px;
+
+  transform: translate(-50%, -50%);
+}
+
+.liked {
+  border: none;
+  background: #303030;
+}
+
+.liked svg {
+  stroke: var(--white);
+}

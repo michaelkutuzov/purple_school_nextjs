@@ -1,6 +1,6 @@
 import type { FC } from "react";
 import cn from "classnames";
-import LikeIcon from "./like.svg";
+import LikeIcon from "../../public/like_16.svg";
 import styles from "./Like.module.css";
 
 export interface LikeProps {
