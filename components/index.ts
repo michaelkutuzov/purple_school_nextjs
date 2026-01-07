@@ -5,3 +5,4 @@ export * from "./Tag/Tag";
 export * from "./Like/Like";
 export * from "./BlogCard/BlogCard";
 export * from "./Rating/Rating";
+export * from "./LikeButton/LikeButton";

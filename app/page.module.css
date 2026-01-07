@@ -140,7 +140,7 @@ a.secondary {
   }
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   .logo {
     filter: invert();
   }
@@ -154,4 +154,4 @@ a.secondary {
     --button-secondary-hover: #1a1a1a;
     --button-secondary-border: #1a1a1a;
   }
-}
+} */
