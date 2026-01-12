@@ -22,6 +22,14 @@ const eslintConfig = defineConfig([
     plugins: {
       "react-hooks": reactHooksPlugin,
     },
+    rules: {
+      "@typescript-eslint/no-empty-object-type": [
+        "error",
+        {
+          allowInterfaces: "with-single-extends",
+        },
+      ],
+    },
   },
 ]);
 

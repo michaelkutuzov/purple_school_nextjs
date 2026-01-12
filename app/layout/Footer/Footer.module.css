@@ -1,0 +1,29 @@
+.root {
+  display: grid;
+  grid-template: 1fr / 1fr repeat(2, auto);
+  gap: 10px 40px;
+
+  height: 72px;
+
+  padding: 25px 30px;
+
+  color: var(--white);
+
+  background-color: var(--primary);
+
+  font-size: 16px;
+
+  line-height: 20px;
+}
+
+.root a:hover {
+  color: var(--gray-light);
+}
+
+@media (width <= 765px) {
+  .root {
+    grid-template: repeat(3, 1fr) / 1fr;
+
+    height: auto;
+  }
+}

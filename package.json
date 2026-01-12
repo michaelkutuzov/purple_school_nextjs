@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "classnames": "^2.5.1",
+    "date-fns": "^4.1.0",
     "next": "16.0.8",
     "plural-ru": "^2.0.2",
     "react": "19.2.1",
