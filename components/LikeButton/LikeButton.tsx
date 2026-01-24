@@ -1,3 +1,5 @@
+"use client";
+
 import { FC, useState } from "react";
 import cn from "classnames";
 import LikeIcon from "../../public/like_24.svg";

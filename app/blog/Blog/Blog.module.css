@@ -1,0 +1,14 @@
+.root {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+
+  padding: 30px;
+}
+
+@media (width <= 765px) {
+  .root {
+    grid-template-columns: 100%;
+    gap: 20px;
+  }
+}

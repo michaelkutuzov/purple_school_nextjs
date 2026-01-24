@@ -10,6 +10,9 @@ const nextConfig: NextConfig = {
       },
     },
   },
+  images: {
+    remotePatterns: [new URL("https://img.freepik.com/premium-vector/**")],
+  },
 };
 
 export default nextConfig;
